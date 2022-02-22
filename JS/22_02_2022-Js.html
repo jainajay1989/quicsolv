@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="js/develop.js" type="text/javascript"></script>
+    </head>
+<body>
+
+<p class="dem"></p>
+<p class="dem"></p>
+<p id="goal">Goal for demo</p>
+<button type="button" onclick="closeWindow();">Close Window</button>
+
+
+    <h1 id="var" style="color:black;">GeeksForGeeks</h1>
+    <h1 id="let" style="color:black;">GeeksForGeeks</h1>
+    <button id="btn" onclick="colour()">Start</button>
+    <!-- executing function on button click -->
+  
+    <script type="text/javascript">
+        var col1 = 'gree';
+        function colour() {
+  
+            setInterval(function() { //Pre-defined in javascript
+                if (document.getElementById('var').style.color == 'black') 
+                    var col1 = 'blue';
+                else
+                    col1 = 'black';
+  
+                // setting value of color 1 through var
+  
+                if (document.getElementById('let').style.color == 'black') {
+                    console.log('In');
+                    var col2 = 'red';
+                } else {
+                    col2 = 'black';
+                }
+                // console.log(col1);
+                // alert(col2);
+//   return;
+                // setting value of color 2 through let
+  
+                document.getElementById('var').style.color = col1;
+  
+                document.getElementById('let').style.color = col2;
+  
+                // changing color of h1 in html
+            }, 500);
+  
+        }
+        console.log(col1);
+    </script>
+</body>
+</html>

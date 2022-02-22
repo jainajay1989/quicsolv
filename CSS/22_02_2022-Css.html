@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>My first web page</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <style>
+            .box1,.box2,.box3{
+                width: 500px;
+                height: 500px;
+                border: 10px dotted red;
+                float: left;
+                margin: 10px;
+                margin-left: 200px;
+            }
+            /* #box1-p1{
+                color: yellow;
+            }  */
+            /* .box1 .box-p, .box2 .box-p{
+                color: red;
+                text-align: center;
+            } */
+            div > p{
+                color: royalblue;
+                text-align: right;
+                font-size: 50px;
+            }
+            .box2-child{
+                border: 5px solid gray;
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                background-image: url('img/monitor-1307227__480.jpeg');
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1" id="box1">
+            <p id="box1-p1" class="box-p">I am in p block</p>
+            <p id="box1-p2" class="box-p">I am in p block</p>
+            <p id="box1-p3" class="box-p">I am in p block</p>
+        </div>
+
+        <div class="box2" id="box2" style="position: absolute;border:5px solid green">
+            <!-- <p id="box2-p1" class="box-p">I am in p block</p>
+            <p id="box2-p2" class="box-p">I am in p block</p>
+            <p id="box2-p3" class="box-p">I am in p block</p> -->
+            <div class="box2-child">
+                <p>I am box2 child</p>
+            </div>
+        </div>
+        <div class="box3">
+            <p>hello</p>
+        </div>
+        
+    </body>
+</html>
