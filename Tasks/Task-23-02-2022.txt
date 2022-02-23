@@ -11,3 +11,8 @@ Task 2:
 2) On click to submit button add row to table & display all values in table list.
 3) On refresh the table list should not be disappeared.
 
+Task 3: 
+
+1) javascript-calculator.png
+2) Design calculator using HTML + CSS
+3) Add functionality
