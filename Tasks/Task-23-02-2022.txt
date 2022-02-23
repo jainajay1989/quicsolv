@@ -1,0 +1,13 @@
+Task 1:
+
+1) Create input field 
+2) Get value of input field using javascript
+3) Add the input value to array
+4) print array on screen in list format <ul><li></li><li></li></ul>
+
+Task 2:
+
+1) Create form with fields: name, email, phone, gender, submit button. Form should be built using div only and with proper CSS.
+2) On click to submit button add row to table & display all values in table list.
+3) On refresh the table list should not be disappeared.
+
