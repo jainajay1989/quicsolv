@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    </head>
+<body>
+    <!-- <p id="para">Display me</p>
+    <ul id="list"><li>Ajay</li></ul>
+    <button id="show">Show</button>
+    <button id="hide">Hide</button> -->
+    <p id='aj'>I am here</p>
+    <div id="ajax-box"></div>
+    <button id="callAjax">Call Me</button>
+    <script>
+        $(document).ready(function() {
+            
+            $('#show').click(function() {
+                $('#list').append('<li>Anand</li>');
+                $('#para').show();
+            })
+            $('#hide').click(function() {
+                $('#para').hide();
+            })
+
+            $('#callAjax').click(function() {
+                $.ajax({
+                    async: false,
+                    url: 'list.html',
+                    type: 'POST',
+                    data: 'name=ajay',
+                    // dataType: "html",
+                    beforeSend: function() {
+                        console.log(0)
+                    },
+                    success: function(result) {
+                        $('#ajax-box').append(result);
+                        console.log(1);
+                    },
+                    complete: function() {
+                        console.log(2)
+                    }
+                });
+                $('#aj').hide();
+                // $.ajax({url: "demo_test.txt", success: function(result){
+                //     $("#div1").html(result);
+                // }});
+            });
+
+        });
+    </script>
+</body>
+</html>
