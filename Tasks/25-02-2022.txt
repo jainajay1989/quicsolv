@@ -1,0 +1,3 @@
+Task - 
+
+Build ecommerce website pages for front-end refering different ecommerce application available like flipkart, myntra, shopclue, sugarcosmetics, amazon.
