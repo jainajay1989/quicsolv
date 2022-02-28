@@ -24,6 +24,7 @@ Iterate the above array and print on screen.
 4) Create form with 3 image uploader
 * Should do the jQuery validation for image required and only allow jpg, png image using jQuery validation plugin.
 * Submit on server and save in image folder
+* Size only 2 MB is allowed.
 
 5) Learn about 10 functions on array and write code example of it.
 6) Learn about 10 functions on string and write code example of it.
