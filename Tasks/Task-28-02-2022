@@ -1,0 +1,29 @@
+
+1) Create function to add, subtract, multiply, devide & get remained by passing 2 number as arguements and print on screen.
+
+2) Create function to add all values of an array by passing array as arguenment and print on screen.
+
+3) $array = array(
+    'first' => array('
+        'company1' => 'BMW',
+        'company2' => 'Mercedees'
+    ),
+    'second' => array('
+        'company1' => 'Asian',
+        'company2' => 'Nerolal'
+    ),
+    'third' => array('
+        'company1' => 'Vimal',
+        'company2' => 'Rajni Gandha'
+    ),
+)
+
+Iterate the above array and print on screen.
+
+
+4) Create form with 3 image uploader
+* Should do the jQuery validation for image required and only allow jpg, png image using jQuery validation plugin.
+* Submit on server and save in image folder
+
+5) Learn about 10 functions on array and write code example of it.
+6) Learn about 10 functions on string and write code example of it.
