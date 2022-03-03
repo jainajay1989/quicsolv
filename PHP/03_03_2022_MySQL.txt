@@ -1,0 +1,18 @@
+SELECT * FROM `Employee` INNER JOIN `Employee_Salary` ON `Employee`.id = Employee_Salary.emp_id WHERE `Employee_Salary`.`salary` = 21000;
+
+SELECT * from Employee where id IN (select emp_id from Employee_Salary where salary = 21000); 
+Select * from Employee_Salary where salary = 21000;
+
+
+select * from Employee where id = 1 OR id = 2 OR id = 3 OR id = 4;
+select * from Employee where id IN (1,2,3,4);
+
+SELECT UCASE(CONCAT(name, '-', email, '-', phone)) FROM `Employee` WHERE 1;
+
+SELECT NOW();
+
+select * from Employee_Salary where salary BETWEEN 15000 AND 19000;
+
+Select * from Employee_Salary where salary >= 15000 AND salary <= 19000;
+
+SELECT * FROM `Employee_City` UNION Select * from Employee_Salary;
