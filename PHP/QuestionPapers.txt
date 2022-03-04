@@ -1,0 +1,361 @@
+1) Please select predefined varables which are not available in PHP.
+
+a. $GLOBALS
+b. $_SERVER
+c. $_PUT
+d. $SUPER
+e. $_GET
+f. $_POST
+g. $_DELETE
+
+Answer: c,d,g
+
+2) Which function is used to get count of element in an array?
+$arr = ['Car', 'BMW', 'Mercedees'];
+a. count($arr);
+b. $arr.length();
+c. length($arr);
+d. None of the above.
+
+Answer: a
+
+3) What will be the output of below program?
+
+<?php 
+$array = ['lastname', 'email', 'phone'];
+echo implode(',', $array);
+?>
+
+a. lastnameemailphone
+b. lastname,email,phone
+c. lastname, email, phone
+d. None of the above
+
+Answer: b
+
+4) What will be output of below program?
+<?php
+$array = ['lastname', 'email', 'phone'];
+foreach($array as $key => $val) {
+    echo '<br/>'.$key.'-'.$val;
+}
+
+a.  0-lastname
+    1-email
+    2-phone
+b. lastname email phone
+c. lastname - lastname
+   email - email
+   phone - phone
+d. None of the above
+
+Answer: a
+
+5) What will be the output of below program?
+
+<?php
+$date = "05-03-2022 14:02:20"; // Its d/m/Y
+echo date('Y-m-d', strtotime($date. ' + 1 days'));
+?>
+
+a. 06/03/2022 14:02:20
+b. 2022/03/06
+c. 2022-03-06
+d. 03/06/2022 14:02:20
+
+Answer: c
+
+6. What is difference between print_r() & var_dump()
+
+a. var_dump() displays values along with data types as output. print_r() displays only value as output.
+b. var_dump() displays only values. print_r() displays value as output along with data types as output.
+c. var_dump() & print_r() are not functions.
+d. There is no difference between print_r() & var_dump()
+
+Answer: a
+
+7. Which of the following is used to display the output in PHP?
+
+a. echo
+b. write
+c. print
+d. Both (a) and (c)
+
+Answer: d
+
+8) Which of the following is the use of strlen() function in PHP?
+
+a. The strlen() function returns the type of string
+b. The strlen() function returns the length of string
+c. The strlen() function returns the value of string
+d. The strlen() function returns both value and type of string
+
+Answer: b
+
+9) Which of the following is used for concatenation in PHP?
+
+a. + (plus)
+b. * (Asterisk)
+c. . (dot)
+d. append()
+
+Answer: c
+
+10) Which of the following is the correct way to create a function in PHP?
+
+a. Create myFunction()
+b. New_function myFunction()
+c. function myFunction()
+d. None of the above
+
+Answer: c
+
+11) Which of the following is the correct way of defining a variable in PHP?
+
+a. $variable name = value;
+b. $variable_name = value;
+c. $variable_name = value
+d. $variable name as value;
+
+Answer: b
+
+12) What will be the output of the following program?
+<?php
+$var1 = 'Hello';
+$var2 = 'World';
+echo $var1.$var2;
+?>
+a. HelloWorld
+b. "$var1$var2"
+c. Hello World
+d. None of the above
+
+Answer: a
+
+13) What will be the output of the following program?
+
+<?php  
+$a;  
+if ($a)  
+{  
+echo "Hi";  
+}  
+else  
+{  
+echo "How are you";  
+}  
+?>
+
+a. Hi How are you
+b. How are you & Notice error;
+c. Hi
+d. None of the above
+
+Answer: b
+
+14) What will be the output of the following program?
+
+<?php  
+$a = 0;  
+while ($a++)  
+{  
+echo "$a";  
+}  
+echo $a;  
+?>  
+
+a. 0
+b. 1
+c. 2
+d. None of the above
+
+Answer: b
+
+15) What will be the output of the following program?
+
+<?php  
+echo ucwords("welcome to the javaTpoint.com");  
+?>  
+
+a. Welcome to the javaTpoint.com
+b. welcome to the javaTpoint.com
+c. Welcome To The JavaTpoint.com
+d. Welcome to the JavaTpoint.com
+
+Answer: c
+
+16) What will be the output of the following program?
+
+<?php  
+$a = 15;  
+function show()  
+{  
+$a = 20;  
+echo "$a";  
+}  
+show();  
+echo "$a";  
+?>  
+
+a. 2015
+b. 2020
+c. 1515
+d. 0
+
+Answer: a
+
+17) What will be the output of the following program?
+
+<?php  
+$x = 15;  
+$y = 20;  
+if($x < ++$x || $y < ++$y)  
+{  
+echo "Hello World";  
+}  
+else   
+{  
+echo "Hii everyone";  
+}  
+?>  
+
+a. Hii everyone
+b. Hello World
+c. Hello World Hii everyone
+d. None of the above
+
+Answer: a
+
+18) What will be the output of the following program?
+
+<?php  
+while()  
+{  
+echo "Hello World";  
+}  
+?>  
+
+a. Hello World
+b. Infinite loop
+c. no output
+d. Error
+
+Answer: d
+
+19) Which PHP function converts an English text datetime into a Unix timestamp?
+
+a. str_to_time()
+b. strtodate()
+c. strtotime()
+d. None of the above
+
+Answer: c
+
+20) Which of the following is used to end a statement in PHP?
+
+1) . (dot)
+2) ; (semicolon)
+3) ! (exclamation)
+4) / (slash)
+
+Answer: b
+
+21) Which function is used to set timezone in php?
+
+a. date_default_timezone_set();
+b. date_set_timzone();
+c. set_timezone_default();
+d. All of the above
+
+Answer: a
+
+22) What is the correct way to connect PHP with MySQL database?
+
+<?php 
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "quicksol";
+
+?>
+
+a. $conn = new mysqli($servername, $username, $password, $dbname);
+b. $conn = new mysql_connection($servername, $password, $username);
+c. $conn = new mysql($servername, $username);
+d. a & b
+
+Answer: a
+
+23) Which are not the contsraint in MySQL?
+
+a. PRIMARY
+b. UNIQUE
+c. FOREIGN KEY
+d. NULL
+e. CHECKLIST
+
+Answer: a, d & e
+
+24) Please select correct query for inner join of Employee & Employee_Salary table with primary_key: id & foreign_ke: emp_id
+
+a. Select * from Employee INNER JOIN Employee_Salary ON Employee.id = Employee_Salary.emp_id;
+b. Select * from Employee AS E INNER JOIN Employee_Salary AS ES ON E.id = ES.emp_id;
+c. Select * from Employee AS E LEFT JOIN Employee_Salary;
+d. Select * from Employee AS E FULL OUTER JOIN Employee_Salary ON E.id = ES.emp_id;
+
+Answer; a, b
+
+25) Which operator is used to compare a value to a specified list of values?
+
+a. ANY
+b. BETWEEN
+c. ALL
+d. IN
+
+Answer: d
+
+26) Which of the following statement is true?
+
+a. TRUNCATE free the table space while DELETE does not.
+b. Both TRUNCATE and DELETE statements free the table's space.
+c. Both TRUNCATE and DELETE statement does not free the table's space.
+d. DELETE free the table space while TRUNCATE does not.
+
+Answer: a
+
+27) How can you change "Thomas" into "Michel" in the "LastName" column in the Users table?
+
+a. UPDATE User SET LastName = 'Thomas' INTO LastName = 'Michel'
+b. MODIFY Users SET LastName = 'Michel' WHERE LastName = 'Thomas'
+c. MODIFY Users SET LastName = 'Thomas' INTO LastName = 'Michel'
+d. UPDATE Users SET LastName = 'Michel' WHERE LastName = 'Thomas'
+
+Answer: d
+
+28) Find the cities name with the condition and temperature from table 'whether' where condition = sunny or cloudy but temperature >= 60.
+
+a. SELECT city, temperature, condition FROM weather WHERE condition = 'cloudy' AND condition = 'sunny' OR temperature >= 60
+b. SELECT city, temperature, condition FROM weather WHERE condition = 'cloudy' OR condition = 'sunny' OR temperature >= 60
+c. SELECT city, temperature, condition FROM weather WHERE (condition = 'sunny' OR condition = 'cloudy') AND temperature >= 60
+d. SELECT city, temperature, condition FROM weather WHERE condition = 'sunny' AND condition = 'cloudy' AND temperature >= 60
+
+Answer: c
+
+29) Which of the following statement is correct to display all the cities with the condition, temperature, and humidity whose humidity is in the range of 60 to 75 from the 'whether' table?
+
+a. SELECT * FROM weather WHERE humidity IN (60 to 75)
+b. SELECT * FROM weather WHERE humidity BETWEEN 60 AND 75
+c. SELECT * FROM weather WHERE humidity NOT IN (60 AND 75)
+d. SELECT * FROM weather WHERE humidity NOT BETWEEN 60 AND 75
+
+Answer: b
+
+30) Which statement is used to get all data from the student table whose name starts with p?
+
+a. SELECT * FROM student WHERE name LIKE '%p%';
+b. SELECT * FROM student WHERE name LIKE 'p%';
+c. SELECT * FROM student WHERE name LIKE '_p%';
+d. SELECT * FROM student WHERE name LIKE '%p';
+
+Answer: b
