@@ -1,0 +1,8 @@
+
+
+1) Create table patients using migration: Name, Email, Phone, Age, Gender, Address, Photo
+2) Create form to add & Save all it into patients table with all details.
+3) Create route: /list to display list of all patiens with action column to edit/delete
+4) On edit click it should edit
+5) On delete it should delete.
+6) On list add search input field & button. On putting any text and click on search button it should search from patient table and search for result and list out. 
