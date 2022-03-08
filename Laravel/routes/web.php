@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\OrderController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/dsfsdfsdfsd', [HomeController::class, 'index']);
+Route::get('/index',[OrderController::class, 'index'])->name('order.index');
+Route::post('/save-order/{id}/{name}',[OrderController::class, 'save'])->name('order.save');
+
 
