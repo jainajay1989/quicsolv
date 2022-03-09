@@ -1,0 +1,10 @@
+Task:
+
+1) Create table: user -> name, email, phone, password.
+2) Create table: user_details: id, user_id, age, address, city, state, country, pincode, image.
+3) Create forms using laravel forms
+Field Sequence: Name, Email, Phone, Age, Password, Confirm Password. Address, City(dropdown), State(dropdown), Country(dropdown, from database), Pincode, image with preview.
+3) Need client & server side validation. For client side validaiton use https://jqueryvalidation.org/. For Server side validation use Laravel validation.
+4) After successfull validation save data into table.
+5) Used Error logging and Exception handling incase of error.
+6) Use localization for field label in English & Chinees.

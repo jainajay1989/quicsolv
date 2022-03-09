@@ -159,7 +159,7 @@ return [
     */
 
     'attributes' => [],
-    'welcome' => 'EN',
-    'NO_USER' => 'KOI USER NAHI HAI'
+    'welcome' => 'ES',
+    'NO_USER' => 'NO USER FOUND'
 
 ];
