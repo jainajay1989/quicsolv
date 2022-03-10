@@ -19,6 +19,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/home',[HomeController::class, 'index'])->name('home.index');
+Route::post('/store',[HomeController::class, 'store'])->name('home.store');
 Route::get('/index',[OrderController::class, 'index'])->name('order.index');
 Route::post('/save-order/{id}/{name}',[OrderController::class, 'save'])->name('order.save');
 
