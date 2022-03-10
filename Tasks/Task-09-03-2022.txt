@@ -8,3 +8,4 @@ Field Sequence: Name, Email, Phone, Age, Password, Confirm Password. Address, Ci
 4) After successfull validation save data into table.
 5) Used Error logging and Exception handling incase of error.
 6) Use localization for field label in English & Chinees.
+7) Edit / View / Delete
