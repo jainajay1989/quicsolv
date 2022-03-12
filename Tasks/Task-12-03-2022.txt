@@ -1,0 +1,6 @@
+Task - 12 Mar 2022
+
+1) Create products table for adding mobiles. Fields you need create by analysing the product sample(https://www.flipkart.com/apple-iphone-12-white-64-gb/p/itm8b88bdc03cd79). Make sure to break the data in multiple tables for multiple variants.
+2) Create crud(create, view, update, delete, list) for products
+3) On every product creation I need you guys to send an email on jainajay1989@gmail.com
+4) Form must have client & server validation both.
