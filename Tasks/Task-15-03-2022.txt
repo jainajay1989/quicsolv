@@ -1,0 +1,6 @@
+Task : 15/03/2022
+
+1) Create user registration form & database fields with Name, Email, Phone, Password, Image,
+2) User should be able to view list, add user, edit user, delete user
+3) Pagination should be present on list
+4) Server side validation should be present.
